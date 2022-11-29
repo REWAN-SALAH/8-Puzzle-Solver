@@ -112,6 +112,9 @@ public class Main
                 else
                 {
                     System.out.println("Initial State must be 9 numbers from 0 to 8 and not duplicated \nPlease Try again ");
+                    System.out.print("Please Enter Initial state : ");
+                    InitialState = sc.next();
+                    check = 1;
                 }
             }
 
